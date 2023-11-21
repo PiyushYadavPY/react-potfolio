@@ -8,7 +8,8 @@ import bootstrap from "../assets/bootstrap.png";
 import tailwind from "../assets/tailwind.png";
 import mysql from "../assets/mysql.png";
 import reactImage from "../assets/react.png";
-
+import Angular from "../assets/Angular.png"
+import Figma from "../assets/Figma.png"
 function Experience() {
     const techs = [
         {
@@ -36,10 +37,10 @@ function Experience() {
             style:"shadow-blue-600"
         },
         {
-            id:5,
-            src:tailwind,
-            title:'Tailwind',
-            style:"shadow-blue-400"
+          id : 5,
+          src: Angular,
+          title:'Angular',
+          style:"shadow-red-500"
         },
         {
             id:6,
@@ -54,10 +55,10 @@ function Experience() {
             style:"shadow-blue-400"
         },
         {
-            id:8,
-            src:github,
-            title:'GitHub',
-            style:"shadow-gray-400"
+          id:8,
+          src:tailwind,
+          title:'Tailwind',
+          style:"shadow-blue-400"
         },
         {
             id:9,
@@ -65,6 +66,19 @@ function Experience() {
             title:'Node',
             style:"shadow-green-500"
         },
+        {
+          id:10,
+          src:github,
+          title:'GitHub',
+          style:"shadow-gray-400"
+        
+        },
+        {
+          id: 11,
+          src: Figma,
+          title:'Figma',
+          style:"shadow-pink-300"
+        }
 
     ]
   return (
@@ -74,7 +88,7 @@ function Experience() {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline mt-8">
             Experience
           </p>
           <p className="py-6 ">Technologies I have worked with.</p>

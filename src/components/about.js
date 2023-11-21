@@ -14,8 +14,8 @@ function About() {
         </div>
 
         <p className="text-xl  mt-20 ">
-          As a dedicated React web developer, I bring a robust skill set
-          encompassing HTML, CSS, JavaScript, and React, along with proficiency
+          As a dedicated Frontend web developer, I bring a robust skill set
+          encompassing HTML, CSS, JavaScript,Angular and React, along with proficiency
           in Tailwind CSS and Bootstrap for crafting sleek and responsive user
           interfaces. With a passion for creating seamless and intuitive web
           experiences, I combine my technical acumen with a keen eye for design
