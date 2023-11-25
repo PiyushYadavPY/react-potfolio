@@ -13,7 +13,7 @@ function About() {
           </p>
         </div>
 
-        <p className="text-xl  mt-20 ">
+        <p className="text-xl mt-20 ">
           As a dedicated Frontend web developer, I bring a robust skill set
           encompassing HTML, CSS, JavaScript,Angular and React, along with proficiency
           in Tailwind CSS and Bootstrap for crafting sleek and responsive user
