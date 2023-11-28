@@ -13,37 +13,52 @@ function Portfolio() {
         {
             id:1,
             src:restaurantApp,
-            heading : "Restaurant App"
+            heading : "Restaurant App",
+            demoLink : "https://py-restro.vercel.app/",
+            codeLink : "https://github.com/PiyushYadavPY/py-restro"
         },
         {
             id:2,
             src:budgetPlanner,
-            heading : "Budget Planner"
+            heading : "Budget Planner",
+            demoLink : "https://budget-planner-pied.vercel.app/",
+            codeLink : "https://github.com/PiyushYadavPY/budget-planner"
+        
         },
         {
             id:3 ,
-            src:githubFinder,
-            heading : "Github Finder"
+            src: githubFinder,
+            heading : "Github Finder",
+            demoLink : "https://piyushyadavpy.github.io/githubFinder/",
+            codeLink : "https://github.com/PiyushYadavPY/githubFinder"
         },
         {
             id:4,
             src:weatherForecast,
-            heading : "Weather Forecast"
+            heading : "Weather Forecast",
+            demoLink : "https://weather-forecast-sandy-six.vercel.app/",
+            codeLink : "https://github.com/PiyushYadavPY/weather-forecast"
         },
         {
             id:5,
             src:pokemon,
             heading : "Pokemon Finder",
+            demoLink : "https://piyushyadavpy.github.io/pokemon/",
+            codeLink : "https://github.com/PiyushYadavPY/pokemon"
         },
         {
             id:6,
             src:beersByName,
-            heading : "Beers Searching App"
+            heading : "Beers Searching App",
+            demoLink : "https://piyushyadavpy.github.io/beer-searching-app/",
+            codeLink : "https://github.com/PiyushYadavPY/beer-searching-app"
         },
         {
             id:7,
             src:calender,
-            heading : "Calender"
+            heading : "Calender",
+            demoLink : "https://piyushyadavpy.github.io/calendar/",
+            codeLink : "https://github.com/PiyushYadavPY/calendar"
         },
 
     ]
@@ -60,16 +75,21 @@ function Portfolio() {
 
 
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 md:px-0">
-    {portfolios.map(({id, src, heading}) =>(
+    {portfolios.map(({id, src, heading,demoLink, codeLink}) =>(
      
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg ">
               <img src={src} alt="" className="rounded-md duration-200 hover:scale-105"/>
               <p className="text-center justify-center m-2">{heading}</p>
               <div className="flex items-center justify-center">
                
-              <button  className="w-1/2 px-6 py-3 m-2 duration-200 hover:scale-105">Demo</button>
+              <button className="w-1/2 px-6 py-3 m-2 duration-200 hover:scale-105">
+               
+                <a href={demoLink} target="_blank">Demo</a>
+                </button>
              
-              <button className="w-1/2 px-6 py-3 m-2 duration-200 hover:scale-105">Code</button>
+              <button className="w-1/2 px-6 py-3 m-2 duration-200 hover:scale-105">
+                <a href={codeLink} target="_blank">Code</a> 
+                </button>
               </div>
             </div>
         
