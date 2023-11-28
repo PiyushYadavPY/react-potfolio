@@ -12,11 +12,11 @@ function Home() {
       <div className="max-w-screen-lg mx-auto flex flex-col  md:flex-row items-center justify-center h-full px-4 ">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a react developer
+            I'm a Web developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md ">
             I have experience in creating and designing websites and am
-            currently working with Anglar and Tailwind. I'm passionate about developing web
+            currently working with Angular and Tailwind. I'm passionate about developing web
             applications using technologies like React and Tailwind CSS.
           </p>
           <div>
